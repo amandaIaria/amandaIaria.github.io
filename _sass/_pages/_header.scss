@@ -1,0 +1,36 @@
+#header{
+    //height:500px;
+
+}
+.headerPage{
+    background: url("../img/photo-1416339442236-8ceb164046f8.jpeg");
+    background-size:cover;
+    background-position: center;
+    .headerText{
+        text-align: center;
+        color:$dgrey;
+         h1{
+            color:$lblue;
+            font:{
+                size:130px;
+                family:$heading;
+            }
+            text-transform: none;
+        }
+        h2{
+            font-size:50px;
+            margin-top:-50px;
+        }
+        img{
+            margin-top: 215px;
+
+
+
+
+
+
+
+
+        }
+    }
+}

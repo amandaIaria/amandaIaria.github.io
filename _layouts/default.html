@@ -1,20 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+	<head>
+		{% include head/head.html %}
+		{% include head/style.html %}
+		{% include head/scripts.html %}
+	</head>
 
-  {% include head.html %}
+	<body>
 
-  <body>
+		<div id="fullpage">
+			<div class="section headerPage">
+				{% include sections/header.html %}
+			</div>
+			<div class="section">
+				{% include sections/portfolio.html %}
+			</div>
+			<div  class="section skills">
+				{% include sections/skills.html %}
+			</div>
+			<div  class="section about">
+				{% include sections/about.html %}
+			</div>
+			<div  class="section c">
+				{% include sections/contact.html %}
+			</div>
+			<div class="section social">
+				{% include sections/social.html %}
+				{% include sections/footer.html %}
+			</div>
+		</div>
 
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
-
-    {% include footer.html %}
-
-  </body>
-
+		<script type="text/javascript" src="assets/scripts/mainscript.js"></script>
+	</body>
 </html>

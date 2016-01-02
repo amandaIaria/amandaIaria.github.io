@@ -1,0 +1,25 @@
+// Import partials from `sass_dir` (defaults to `_sass`)
+
+
+//bootstrap
+@import
+        "_partials/fonts",
+        "_partials/variables",
+        "_partials/mixins",
+        "_pieces/base",
+        "_bootstrap/bootstrap";
+
+//@import         "_pieces/base", "_pages/layout";
+
+
+@import
+        "_pages/header",
+        "_pages/portfolios",
+        "_pages/skills",
+        "_pages/about",
+        "_pages/contact",
+        "_pages/social",
+        "_pages/footer"
+;
+
+//@import "_plugins/slick.scss";

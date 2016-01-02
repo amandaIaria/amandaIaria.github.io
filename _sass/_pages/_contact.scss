@@ -1,0 +1,51 @@
+.c{
+    background: url("../img/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg");
+    background-size:cover;
+    h2{
+        color:$w;
+    }
+    color:$w;
+}
+.contact{
+
+    .input-group{
+         margin-bottom:10px;
+         width:100%;
+    }
+    input{
+        &[type="text"], &[type="email"]{
+            background:none;
+            border:none;
+            border-bottom:solid thin $w;
+            border-radius: none;
+            color:$w;
+            font-size: 20px;
+        }
+
+        &:focus{
+            @include boxshadow(none);
+            border-color: none;
+            outline: 0;
+        }
+    }
+    button{
+        background: $w;
+        color:$dgrey;
+        text-transform: uppercase;
+        font:{
+            size:16px;
+        }
+        padding-top:10px;
+        padding-bottom:10px;
+        @include transition(1s);
+        &:hover{
+            background: $dgrey;
+            color:$w;
+        }
+    }
+    header{
+        h1{
+            text-align: center;
+        }
+    }
+}

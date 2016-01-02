@@ -1,0 +1,28 @@
+
+
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+@mixin transition($t){
+    transition: all $t ease;
+    -webkit-transition: all $t ease;
+    -os-transition: all $t ease;
+
+}
+
+@mixin boxshadow($r){
+    -webkit-box-shadow: $r;
+    box-shadow: $r;
+    -o-box-shadow: $r;
+}

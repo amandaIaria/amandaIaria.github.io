@@ -37,7 +37,7 @@ module.exports = function (grunt) {
 
         browser_sync: {
             files: {
-                src : ['_site/css/*.css']
+                src : ['_site/assets/css/*.css']
             },
             options: {
                 watchTask: true,
@@ -61,14 +61,14 @@ module.exports = function (grunt) {
                 relativeAssets: false,
                 outputStyle: 'expanded',
                 sassDir: '_sass',
-                cssDir: '_site/css'
+                cssDir: '_site/assets/css'
             },
             build: {
                 files: [{
                     expand: true,
                     cwd: '_sass/',
                     src: ['**/*.{scss,sass}'],
-                    dest: '_site/css',
+                    dest: '_site/assets/css',
                     ext: '.css'
                 }]
             }
