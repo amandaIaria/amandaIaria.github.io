@@ -17,7 +17,7 @@
 @mixin transition($t){
     transition: all $t ease;
     -webkit-transition: all $t ease;
-    -os-transition: all $t ease;
+    -o-transition: all $t ease;
 
 }
 
@@ -25,4 +25,12 @@
     -webkit-box-shadow: $r;
     box-shadow: $r;
     -o-box-shadow: $r;
+    -moz-box-shadow: $r;
+}
+
+@mixin border-radius($t){
+    border-radius: $t;
+    -webkit-border-radius: $t;
+    -moz-border-radius: $t;
+    -o-border-radius: $t;
 }

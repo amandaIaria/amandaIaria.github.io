@@ -2,4 +2,72 @@
 
     background: $dgrey;
     color:$w;
+    .main{
+        img{
+            @include border-radius(10px);
+        }
+    }
+    .col-lg-3{
+        img{
+            margin-bottom: 20px;
+             @include border-radius(5px);
+        }
+    }
+    header{
+        a, h3{
+            font:{
+                size:30px;
+                weight:400;
+                family: $heading;
+            }
+            letter-spacing: 1px;
+            text-transform: uppercase;
+             @include transition(1s);
+            &:hover{
+                text-decoration: none;
+                color:$w;
+            }
+        }
+        h3{
+            margin:0;
+            padding:0;
+        }
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    article{
+        font-size:18px;
+        padding-left:20px;
+        padding-right: 20px;
+       // min-height: 210px;
+    }
+    footer{
+        margin-top:20px;
+        text-align: center;
+        a{
+            padding:10px;
+            display: block;
+            background: $lblue;
+            color:$w;
+            @include border-radius(5px);
+            @include transition(1s);
+            font:{
+                family:$subheading;
+                //weight:800;
+                size:16px;
+            }
+            text-transform: uppercase;
+            &:hover{
+                text-decoration: none;
+                background: $w;
+                color:$lblue;
+            }
+
+
+        }
+    }
+}
+
+.loading{
+    background: url("../img/ajax-loader.gif") center center no-repeat ;
 }
