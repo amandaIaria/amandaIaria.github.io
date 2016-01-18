@@ -1,63 +1,33 @@
 <section class="row contact">
 	<div class="col-sm-12">
 		<div class="container">
-			<div class="col-sm-2">
-			</div>
+			<div class="col-sm-2"></div>
 			<div class="col-sm-8">
 				<header>
 					<h2>Contact Me</h2>
-
 				</header>
 
-				<script type="text/javascript" src="assets/scripts/contact_form.js"></script>
-				<script type="text/javascript" src="http://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>
-
-
-
-				<form id="contact-form" class="contact-form" method="post" data-success="Message successfully sent!">
+				<script src='https://www.google.com/recaptcha/api.js'></script>
+				<form id="contact-form" class="contact-form" method="post" action="https://lit-badlands-7154.herokuapp.com/">
 					<div class="input-group">
-						<input id="name" type="text" name="name" class="form-contral" required autofocus placeholder="Name"/>
-
+						<input id="name" type="text" name="name" class="form-contral" required placeholder="Name"/>
 					</div>
+
 					<div class="input-group">
 						<input id="email" type="email" name="email" class="form-contral" required placeholder="Email" />
 					</div>
+
 					<div class="input-group">
 						<input id="subject" type="text" name="subject" class="form-contral" required placeholder="Subject" />
 					</div>
-					<div class="input-group">
-						<input id="message" name="message" required placeholder="Message" type="text" class="form-contral" /><br/>
-					</div>
-					<div class="input-group">
-						<label for="recaptcha_response_field" class="recaptcha_response_field">Captcha</label>
-						<div id="recaptcha_widget" class="recaptcha">
-							<div class="image">
-							  <div id="recaptcha_image"></div>
-							</div>
 
-							<div class="headline recaptcha_only_if_image">Enter the words above:</div>
-							<div class="headline recaptcha_only_if_audio">Enter the numbers you hear:</div>
-
-							<input type="text" id="recaptcha_response_field" name="recaptcha_response_field" required />
-							<div class="icons row">
-								<div class="col-lg-12">
-									<span class="recaptcha_icon"><a href="javascript:Recaptcha.reload()"><i class="fa fa-refresh"></i></a></span>
-									<span class="recaptcha_icon recaptcha_only_if_image"><a href="javascript:Recaptcha.switch_type('audio')"><i class="fa fa-volume-up"></i></a></span>
-									<span class="recaptcha_icon recaptcha_only_if_audio"><a href="javascript:Recaptcha.switch_type('image')"><i class="fa fa-font"></i></a></span>
-									<span class="recaptcha_icon"><a href="javascript:Recaptcha.showhelp()"><i class="fa fa-question-circle"></i></a></span>
-								</div>
-							</div>
-						</div>
-						<div id="notice" class="notice" data-captcha-failed="Incorrect captcha!" data-error="There was an error sending the message, please try again."></div>
+					<div class="input-group">
+						<input id="message" name="message" required placeholder="Message" type="text" class="form-contral" />
 					</div>
+					<div class="g-recaptcha" data-sitekey="6LcTVRQTAAAAAFj0BnT5uAZOD83jFzH6URbbZ87L"></div>
 					<button type="submit" class="btn btn-default btn-lg">Send</button>
+
 				</form>
-
-
-				<script type="text/javascript" src="assets/scripts/contact_form.js"></script>
-				<script type="text/javascript" src="http://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>
-
-
 
 			</div>
 			<div class="col-sm-2"></div>

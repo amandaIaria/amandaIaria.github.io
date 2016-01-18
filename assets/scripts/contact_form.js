@@ -1,9 +1,3 @@
-function showRecaptcha(element) {
-  Recaptcha.create('6LcTVRQTAAAAAFj0BnT5uAZOD83jFzH6URbbZ87L', element, {
-    theme: 'custom', // you can pick another at https://developers.google.com/recaptcha/docs/customization
-    custom_theme_widget: 'recaptcha_widget'
-  });
-}
 
 function setupRecaptcha() {
   var contactFormHost = 'https://pure-ridge-6599.herokuapp.com/',
