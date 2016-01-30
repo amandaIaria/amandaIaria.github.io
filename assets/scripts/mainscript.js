@@ -8,7 +8,7 @@ $(document).ready(function() {
 		navigationTooltips: ['header', 'portfolio', 'skills', 'about', 'contact', 'social'],
 		showActiveTooltip: true,
 		});
-
+	$(".alert").alert()
   // init Isotope
 	/*var $grid = $('.grid').isotope({
 	  itemSelector: '.grid-item',
