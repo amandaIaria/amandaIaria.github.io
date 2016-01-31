@@ -6,4 +6,4 @@ image:
 date:   2015-11-21 15:37:24 -0500
 category:  work hmc site wordpress
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+ParentUp is a site I worked while at HMC advertising. We worked with the Vermont Department of Health to create a site that focused on multiple issues for parents. Some of the topics included Drug and Alchol Abuse, depresion, and suicide. With the help of HMC's designers and writers I create a full wordpress theme, and a plugin for the Set the Foundation page. This page contains a mass amount of information that had to be easily ingested with good UX experence. View the site at http://parentupvt.org/

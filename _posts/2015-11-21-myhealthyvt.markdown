@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "My Healthy VT"
+title:  "Helping Yourself to Health"
 image:
     feature: "assets/img/port/healthyVT.png"
 date:   2015-11-21 15:37:24 -0500
 category:  work hmc site wordpress
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Helping Yourself to Health is a site I worked while at HMC advertising. We worked with the Vermont Department of Health to create a site that focused on multiple topics. With the help of HMC's designers and writers I create a full wordpress theme, and a video Wordpress Plugin that allowed easy viewing of the programs stories in shortcode formate. View the site at http://myhealthyvt.org/

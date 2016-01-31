@@ -6,4 +6,4 @@ image:
 date:   2015-11-21 15:37:24 -0500
 category:  work hmc site wordpress
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+The Good Food Truck is a site I worked while at HMC advertising. We worked with the CEFs (Chittenden Emergency Food Shelf), and the project included the site, branding, shirts, printables, and the truck design. With the help of HMC Designers I built the site, child theme, and with two plugins. The Twitter map and feed, and the Instagram feed. Both plugins can be found on the front page. You can view the site at http://goodfoodtruckvt.org/

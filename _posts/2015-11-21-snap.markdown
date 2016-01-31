@@ -6,4 +6,5 @@ image:
 date:   2015-11-21 15:37:24 -0500
 category:  work hmc site
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+
+Snap is a site I worked on while at HMC advertising. We worked with the Vermont Department of Health to create a site that focused on eating healthy for low income Vermonters. Unlike many of the other sites I've worked on this one is a static landing page. We had a lot of information to work with, and had the challenge to orginize it in such a way that it would be easy to navigate. View the site at http://www.healthyinasnapvt.org/
