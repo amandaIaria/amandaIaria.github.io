@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Helping Yourself to Health"
+title:  "My Healthy VT"
 image:
     feature: "assets/img/port/healthyVT.png"
 date:   2015-11-21 15:37:24 -0500
