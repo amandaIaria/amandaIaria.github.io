@@ -200,19 +200,19 @@ pre {
 
         :-moz-placeholder { /* Firefox 18- */
             font-family:$base-font-family;
-           color: $w;
+             color: $w;
            font-weight:200;
         }
 
         ::-moz-placeholder {  /* Firefox 19+ */
             font-family:$base-font-family;
-           color: $w;
+            color: $w;
            font-weight:200;
         }
 
         :-ms-input-placeholder {
             font-family:$base-font-family;
-           color:$w;
+             color: $w;
            font-weight:200;
         }
 
