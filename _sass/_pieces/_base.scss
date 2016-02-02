@@ -188,26 +188,32 @@ pre {
 }
 
 #fp-nav ul li a span, .fp-slidesNav ul li a span{
-    background: $b !important;
+    background: $lblue !important;
 }
-#fp-nav ul li .fp-tooltip{
-    color:$lblue !important;
-}
+
 
 ::-webkit-input-placeholder {
            color: $w;
+           font-family:$base-font-family;
+           font-weight:200;
         }
 
         :-moz-placeholder { /* Firefox 18- */
+            font-family:$base-font-family;
            color: $w;
+           font-weight:200;
         }
 
         ::-moz-placeholder {  /* Firefox 19+ */
+            font-family:$base-font-family;
            color: $w;
+           font-weight:200;
         }
 
         :-ms-input-placeholder {
+            font-family:$base-font-family;
            color:$w;
+           font-weight:200;
         }
 
 ::selection{
@@ -223,12 +229,16 @@ p{
     font-size: 16px;
 }
 #fp-nav ul li .fp-tooltip{
-    font-size:20px !important;
+    font:{
+        size:20px !important;
+        family: $heading !important;
+    }
     top: -9px !important;
     text:{
         transform: uppercase;
         shadow:$dgrey 1px 1px 1px;
     }
+    color:$lblue !important;
 
 }
 .alert{

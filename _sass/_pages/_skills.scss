@@ -4,6 +4,27 @@
     background-position: center;
     color:$w;
     //font-size:20px;
+    p{
+        font:{
+           // family:$open;
+            size:14px;
+            weight:200;
+        }
+    }
+    .mainSkills{
+        h2{
+            margin-bottom:0;
+            text-align: left;
+            font:{
+                family:$heading !important;
+                size:35px !important;
+            }
+            color:$lblue;
+            text:{
+                shadow:$dgrey 1px 1px 0;
+            }
+        }
+    }
 
 
 

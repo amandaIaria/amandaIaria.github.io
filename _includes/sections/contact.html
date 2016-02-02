@@ -1,11 +1,10 @@
 <section class="row contact">
 	<div class="col-sm-12">
 		<div class="container">
+
+					<h2>Contact Me</h2>
 			<div class="col-sm-2"></div>
 			<div class="col-sm-8">
-				<header>
-					<h2>Contact Me</h2>
-				</header>
 
 				<script src='https://www.google.com/recaptcha/api.js'></script>
 				<form id="contact-form" class="contact-form" method="post" action="https://lit-badlands-7154.herokuapp.com/">
@@ -22,7 +21,10 @@
 					</div>
 
 					<div class="input-group">
-						<input id="message" name="message" required placeholder="Message" type="text" class="form-contral" />
+						<textarea id="message" name="message" required placeholder="Message"  class="form-contral">
+
+						</textarea>
+
 					</div>
 					<div class="g-recaptcha" data-sitekey="6LcTVRQTAAAAAFj0BnT5uAZOD83jFzH6URbbZ87L"></div>
 					<button type="submit" class="btn btn-default btn-lg">Send</button>
