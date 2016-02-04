@@ -1,5 +1,113 @@
 .social{
+    #instagram{
+        .col-lg-9, .col-lg-3{
+            padding-left: 0;
+            padding-right: 0;
+        }
+        a{
+            font-size: 20px;
+            /* margin-bottom: 10px; */
 
+            display: block;
+            background: $lblue;
+            color:$dgrey;
+            text-align: center;
+            padding:15px;
+            padding-bottom: 17px;
+            margin:0;
+            margin-bottom: 10px;
+            margin-left: -15px;
+            margin-right: -15px;
+
+            font-family: $heading;
+            @include transition(1s);
+            &:hover{
+                text-decoration: none;
+                background: $dgrey;
+                color:$lblue;
+            }
+        }
+    }
+    #tumblr{
+        .col-lg-12{
+            padding-left: 30px;
+        }
+        a{
+            h3{
+                display: block;
+                background: $lblue;
+                color:$dgrey;
+                font:{
+                    size:20px;
+                    family: $heading;
+                }
+                text-align: center;
+                padding:20px;
+                padding-bottom: 19px;
+                margin:0;
+                margin-bottom: 10px;
+                @include transition(1s);
+                &:hover{
+                    text-decoration: none;
+                    background: $dgrey;
+                    color:$lblue;
+                }
+            }
+            &:hover{
+                 text-decoration: none;
+            }
+
+        }
+    }
+    #twitter{
+        .col-lg-12{
+            padding-right: 30px;
+        }
+        a{
+            &.title{
+                display: block;
+                background: $lblue;
+                color:$dgrey;
+                font:{
+                    size:20px;
+                    family: $heading;
+                }
+                text-align: center;
+                padding:15px;
+                padding-bottom: 17px;
+                margin:0;
+                margin-bottom: 10px;
+                 @include transition(1s);
+                 &:hover{
+                    text-decoration: none;
+                    background: $dgrey;
+                    color:$lblue;
+                 }
+            }
+            &.button{
+                padding:10px;
+                display: block;
+                background: $lblue;
+                color:$w;
+                @include border-radius(5px);
+                @include transition(1s);
+                width:50%;
+                float:right;
+                text-align: center;
+                font:{
+                    family:$subheading;
+                    //weight:800;
+                    size:16px;
+                }
+                text-transform: uppercase;
+                &:hover{
+                    text-decoration: none;
+                    background: $w;
+                    color:$lblue;
+                }
+            }
+        }
+    }
     background: $dgrey;
     color:$w;
     .main{
@@ -9,8 +117,8 @@
     }
     .col-lg-3{
         img{
-            margin-bottom: 20px;
-             @include border-radius(5px);
+            //margin-bottom: 20px;
+            // @include border-radius(5px);
         }
     }
     header{
@@ -39,6 +147,8 @@
         font-size:18px;
         padding-left:20px;
         padding-right: 20px;
+        font-family:$open;
+        font-weight: 100;
        // min-height: 210px;
     }
     footer{
