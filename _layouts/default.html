@@ -9,10 +9,12 @@
 	</head>
 
 	<body>
-
+{% include sections/error.html %}
 		<div id="fullpage">
 			<div class="section headerPage">
+
 				{% include sections/header.html %}
+
 			</div>
 			<div class="section">
 				{% include sections/portfolio.html %}
@@ -31,7 +33,7 @@
 				{% include sections/footer.html %}
 			</div>
 		</div>
-		{% include footer/scripts.html %}
+{% include footer/scripts.html %}
 
 
 	</body>
