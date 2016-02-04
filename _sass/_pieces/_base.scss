@@ -193,27 +193,27 @@ pre {
 
 
 ::-webkit-input-placeholder {
-           color: $w;
-           font-family:$base-font-family;
+           color: $lgrey;
+           font-family:$open;
            font-weight:200;
         }
 
         :-moz-placeholder { /* Firefox 18- */
-            font-family:$base-font-family;
-             color: $w;
-           font-weight:200;
+            font-family:$open;
+            color: $lgrey;
+            font-weight:200;
         }
 
         ::-moz-placeholder {  /* Firefox 19+ */
-            font-family:$base-font-family;
-            color: $w;
-           font-weight:200;
+            font-family:$open;
+            color: $lgrey;
+            font-weight:200;
         }
 
         :-ms-input-placeholder {
-            font-family:$base-font-family;
-             color: $w;
-           font-weight:200;
+            font-family:$open;
+            color: $lgrey;
+            font-weight:200;
         }
 
 ::selection{
