@@ -1,41 +1,29 @@
+<script type="text/javascript">
+	var hash = window.location.hash;
+	var er = $("#errorDiv");
+	var st = $("#sentDiv");
+	var re = $("#recaptaDiv");
+	var se = $("#sendgridDiv");
 
-
-        <script type="text/javascript">
-            var hash = window.location.hash;
-            var er = $("#errorDiv");
-            var st = $("#sentDiv");
-            var re = $("#recaptaDiv");
-            var se = $("#sendgridDiv");
-
-            if(hash == "#sent"){
-                st.removeClass("hide").addClass("show");
-                //console.log("sent");
-            }
-            else if(hash == "#error"){
-                er.removeClass("hide").addClass("show");
-                //console.log("error");
-            }
-            else if(hash == "#recapta"){
-                re.removeClass("hide").addClass("show");
-                //console.log("error");
-            }
-            else if(hash == "#sendgrid"){
-                se.removeClass("hide").addClass("show");
-                //console.log("error");
-            }
-
-
-        </script>
-        <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-          ga('create', 'UA-36996164-1', 'auto');
-          ga('send', 'pageview');
-
-        </script>
-
-
-        <script type="text/javascript" src="assets/scripts/mainscript.js"></script>
+	if(hash == "#sent"){
+		st.removeClass("hide").addClass("show");
+	}
+	else if(hash == "#error"){
+		er.removeClass("hide").addClass("show");
+	}
+	else if(hash == "#recapta"){
+		re.removeClass("hide").addClass("show");
+	}
+	else if(hash == "#sendgrid"){
+		se.removeClass("hide").addClass("show");
+	}
+</script>
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-36996164-1', 'auto');
+	ga('send', 'pageview');
+</script>
+<script type="text/javascript" src="assets/scripts/mainscript.js"></script>

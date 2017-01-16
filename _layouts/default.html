@@ -5,16 +5,15 @@
 		{% include head/style.html %}
 		{% include head/scripts.html %}
 		<!-- get variables -->
-
 	</head>
-
 	<body>
-{% include sections/error.html %}
+		{% include sections/error.html %}
 		<div id="fullpage">
 			<div class="section headerPage">
-
 				{% include sections/header.html %}
-
+			</div>
+			<div class="section dealer">
+				{% include sections/dealer.html %}
 			</div>
 			<div class="section">
 				{% include sections/portfolio.html %}
@@ -33,8 +32,6 @@
 				{% include sections/footer.html %}
 			</div>
 		</div>
-{% include footer/scripts.html %}
-
-
+		{% include footer/scripts.html %}
 	</body>
 </html>

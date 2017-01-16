@@ -2,10 +2,10 @@ $(document).ready(function() {
 	$('#fullpage').fullpage({
 		menu: '#navbar',
 		lockAnchors: true,
-		anchors:['header', 'portfolio', 'skills', 'about', 'contact', 'social'],
+		anchors:['header', 'dealear', 'portfolio', 'skills', 'about', 'contact', 'social'],
 		navigation: true,
 		navigationPosition: 'right',
-		navigationTooltips: ['header', 'portfolio', 'skills', 'about', 'contact', 'social'],
+		navigationTooltips: ['header', 'dealer', 'portfolio', 'skills', 'about', 'contact', 'social'],
 		showActiveTooltip: true,
 		});
 	$(".alert").alert()
