@@ -1,0 +1,19 @@
+.dealer {
+	.sliderBG {
+		width: 5000px;
+		position: absolute;
+		top: 0;
+		opacity: 0.5;
+		ul {
+			margin-left: 0;
+			li {
+				width: 5%;
+				display: inline;
+				float: left;
+				img {
+					width:100%;
+				}
+			}
+		}
+	}
+}
