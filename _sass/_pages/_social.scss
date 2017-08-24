@@ -7,90 +7,70 @@
 	}
 
 	a {
-		font-size: 20px;
-		display: block;
-		background: $lblue;
-		color: $dgrey;
-		text-align: center;
-		padding: 15px;
-		padding-bottom: 17px;
-		margin: 0;
-		margin-bottom: 10px;
-		margin-left: -15px;
-		margin-right: -15px;
-		font-family: $heading;
 		@include transition(1s);
+		text-align: center;
+
 		&:hover {
 			text-decoration: none;
-			background: $dgrey;
-			color: $lblue;
 		}
 
 		&.title {
-			display: block;
 			background: $lblue;
 			color: $dgrey;
+			display: block;
 			font-size: 20px;
 			font-family: $heading;
+			margin: 0 0 10px 0;
 			text-align: center;
 			padding: 15px;
-			padding-bottom: 17px;
-			margin: 0;
-			margin-bottom: 10px;
-			@include transition(1s);
+
 			&:hover{
-				text-decoration: none;
 				background: $dgrey;
 				color: $lblue;
 			}
 		}
 
 		&.button {
-			padding: 10px;
-			display: block;
 			background: $lblue;
 			color: $w;
-			@include border-radius(5px);
-			@include transition(1s);
-			width: 50%;
-			float: right;
-			text-align: center;
+			display: block;
 			font-family: $subheading;
 			font-size: 16px;
+			padding: 10px;
 			text-transform: uppercase;
+			@include border-radius(5px);
+
 			&:hover {
-				text-decoration: none;
 				background: $w;
 				color: $lblue;
 			}
 		}
 	}
 
-    .main img {
-        @include border-radius(10px);
-    }
+	.social-single-container {
+		article{
+			min-height: 190px;
+			margin: 0 10px;
+			font-size: 14px;
+		}
+	}
 
-    header {
-		text-align: center;
-        padding-bottom: 10px;
-    }
-    article {
-        font-size: 18px;
-        padding-left: 20px;
-        padding-right: 20px;
-        font-family: $open;
-        font-weight: 100;
-    }
+	#instagram {
+		.col-lg-3,
+		.col-lg-9{
+			margin-left: 0;
+			margin-right: 0;
+		}
+	}
 
-	footer {
-        margin-top: 20px;
-        text-align: center;
-    }
 
 	.footer a {
-		color: $dgrey;
+		color: $lblue;
 		background: none;
 		font-size: 12px;
 		font-family: $open;
+		&:hover {
+			text-decoration: underline;
+		}
 	}
 }
