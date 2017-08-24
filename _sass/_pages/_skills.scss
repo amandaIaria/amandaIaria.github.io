@@ -1,34 +1,24 @@
-.skills{
+.skills-container {
     background: url("../img/OSASuBX1SGu4kb3ozvne_IMG_1088.jpg");
-    background-size:cover;
+    background-size: cover;
     background-position: center;
-    color:$w;
-    //font-size:20px;
-    p{
-        font:{
-           // family:$open;
-            size:14px;
-            weight:200;
-        }
+    color: $w;
+
+	p {
+        font-size: 14px;
+        font-weight: 200;
     }
-    h2{
+
+	h2 {
          text-shadow:1px 1px $dgrey;
     }
-    .mainSkills{
-        h2{
-            margin-bottom:0;
-            text-align: left;
-            font:{
-                family:$heading !important;
-                size:35px !important;
-            }
-            color:$lblue;
-            text:{
-                shadow:$dgrey 1px 1px 0;
-            }
-        }
+
+	.main-skills h2 {
+        margin-bottom: 0;
+        text-align: left;
+        font-family: $heading !important;
+        font-size: 35px !important;
+        color: $lblue;
+        text-shadow:$dgrey 1px 1px 0;
     }
-
-
-
 }

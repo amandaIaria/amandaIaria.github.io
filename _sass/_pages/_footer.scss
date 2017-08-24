@@ -1,22 +1,26 @@
-.footer{
+.footer {
     padding-top: 20px;
     padding-bottom: 10px;
     height: 58px;
     width: 100%;
     background: $dgrey;
-    color:$w;
+    color: $w;
     position: absolute;
     bottom: 0;
-    h2{
+
+	h2 {
         text-align: center;
     }
-    ul{
+
+	ul {
         list-style: none;
-        float:right;
-        li{
-            display:inline-block;
-            a{
-                display:inline-block;
+        float: right;
+
+		li {
+            display: inline-block;
+
+			a {
+                display: inline-block;
             }
         }
     }

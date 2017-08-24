@@ -1,105 +1,104 @@
-.c{
+.contact-container {
     background: url("../img/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg");
-    background-size:cover;
+    background-size: cover;
+	color: $w;
+
     h2{
         color:$w;
-         text-shadow:1px 1px $dgrey;
+        text-shadow:1px 1px $dgrey;
     }
-    color:$w;
 }
-.contact{
-    .contact-form{
-        .recaptcha_response_field{
-            font:{
-                size:40px;
-                family:$heading;
-            }
+.contact {
+    .contact-form {
+        .recaptcha_response_field {
+            font-size:40px;
+            font-family:$heading;
              color:$lblue;
              text-shadow:$dgrey 1px 1px 1px;
         }
-        .recaptcha{
-            .headline{
-                font:{
-                    size: 20px;
-                    family: $subheading;
-                }
-            }
-            background: $dgrey;
+
+        .recaptcha {
+			background: $dgrey;
             font-size: 16px;
-            padding:20px;
+            padding: 20px;
             padding-top: 35px;
-            .icons{
+
+            .headline {
+                font-size: 20px;
+                font-family: $subheading;
+            }
+
+			.icons {
                 margin-top: 20px;
             }
-            a{
-                i{
-                    font-size: 20px;
-                }
+
+			a i {
+                font-size: 20px;
             }
         }
 
-        .input-group{
-             margin-bottom:20px;
-             width:100%;
+        .input-group {
+             margin-bottom: 20px;
+             width: 100%;
         }
-        input{
-            &[type="text"], &[type="email"]{
-                 background: rgba(0,0,0,0.5);
-                border:none;
-                border-bottom:solid thin $w;
+
+		input {
+            &[type="text"],
+			&[type="email"] {
+                background: rgba(0,0,0,0.5);
+                border: none;
+                border-bottom: solid thin $w;
                 border-radius: none;
-                color:$w;
+                color: $w;
                 font-size: 20px;
-                width:100%;
+                width: 100%;
                 padding-left: 5px;
                 padding-right: 5px;
             }
 
-            &:focus{
+            &:focus {
                 @include boxshadow(none);
                 border-color: none;
                 outline: 0;
             }
         }
-        textarea{
+        textarea {
             width: 100%;
             height: 217px;
             background: rgba(0,0,0,0.5);
-
-            border: none;
+			border: none;
             border-bottom: $w thin solid;
             color:$w;
-            &:focus{
+
+			&:focus {
                 @include boxshadow(none);
                 border-color: none;
                 outline: 0;
             }
         }
-        #recaptcha_response_field{
+        #recaptcha_response_field {
             margin-top: 10px;
         }
-        button{
+
+		button {
             background: $lblue;
-            color:$w;
+            color: $w;
             text-transform: uppercase;
-            font:{
-                size:16px;
-            }
-            border:none !important;
-            padding-top:10px;
-            padding-bottom:10px;
+            font-size: 16px;
+            border: none !important;
+            padding-top: 10px;
+            padding-bottom: 10px;
             @include transition(1s);
             width: 100%;
             height: 75px;
             &:hover{
                 background: $dgrey;
-                color:$w;
+                color: $w;
             }
         }
-        header{
-            h1{
-                text-align: center;
-            }
+
+		header h1 {
+            text-align: center;
         }
     }
 }

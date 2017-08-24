@@ -2,23 +2,18 @@
 layout: default
 ---
 {% for post in site.posts %}
-
-
-        <article  itemscope itemtype="http://schema.org/BlogPosting" class="portContainer grid-item {{post.category}}">
-             <a href="{{ post.image.feature }}" title="{{ post.content | strip_html }}" rel="lightbox" data-cata="{{ post.categories }}">
-                <div class="image_container">
-                    <img src="{{ post.image.feature }}">
-                    <div class="caption">
-                        <span>
-                            {{ post.title }}
-                            <br>
-                            <i class="fa fa-plus"></i>
-                        </span>
-                    </div>
+    <article  itemscope itemtype="http://schema.org/BlogPosting" class="port-single-container grid-item {{post.category}}">
+         <a href="{{ post.image.feature }}" title="{{ post.content | strip_html }}" rel="lightbox" data-cata="{{ post.categories }}">
+            <div class="image-container">
+                <img src="{{ post.image.feature }}">
+                <div class="caption">
+                    <span>
+                        {{ post.title }}
+                        <br>
+                        <i class="fa fa-plus"></i>
+                    </span>
                 </div>
-            </a>
-         </article>
-
-
+            </div>
+        </a>
+     </article>
 {% endfor%}
-

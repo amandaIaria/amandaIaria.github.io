@@ -1,14 +1,16 @@
-.about{
+.about-container {
     background: $aboutColor;
-    .containerIMG{
-        height:100%;
-        width:100%;
+
+	.container-img {
+        height: 100%;
+        width: 100%;
         overflow: hidden;
-        img{
-            width:150%;
+
+		img {
+            width: 150%;
             max-width: 300%;
-            margin-left:-150px;
-            margin-top:-50px;
+            margin-left: -150px;
+            margin-top: -50px;
         }
     }
 }

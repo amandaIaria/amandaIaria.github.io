@@ -1,183 +1,96 @@
-.social{
-    #instagram{
-        .col-lg-9, .col-lg-3{
-            padding-left: 0;
-            padding-right: 0;
-        }
-        a{
-            font-size: 20px;
-            /* margin-bottom: 10px; */
+.social-container {
+	background: $dgrey;
+	color: $w;
 
-            display: block;
-            background: $lblue;
-            color:$dgrey;
-            text-align: center;
-            padding:15px;
-            padding-bottom: 17px;
-            margin:0;
-            margin-bottom: 10px;
-            margin-left: -15px;
-            margin-right: -15px;
+	h2{
+	 	color: $lblue;
+	}
 
-            font-family: $heading;
-            @include transition(1s);
-            &:hover{
-                text-decoration: none;
-                background: $dgrey;
-                color:$lblue;
-            }
-        }
-    }
-    #tumblr{
-        .col-lg-12{
-            padding-left: 30px;
-        }
-        a{
-            h3{
-                display: block;
-                background: $lblue;
-                color:$dgrey;
-                font:{
-                    size:20px;
-                    family: $heading;
-                }
-                text-align: center;
-                padding:20px;
-                padding-bottom: 19px;
-                margin:0;
-                margin-bottom: 10px;
-                @include transition(1s);
-                &:hover{
-                    text-decoration: none;
-                    background: $dgrey;
-                    color:$lblue;
-                }
-            }
-            &:hover{
-                 text-decoration: none;
-            }
+	a {
+		font-size: 20px;
+		display: block;
+		background: $lblue;
+		color: $dgrey;
+		text-align: center;
+		padding: 15px;
+		padding-bottom: 17px;
+		margin: 0;
+		margin-bottom: 10px;
+		margin-left: -15px;
+		margin-right: -15px;
+		font-family: $heading;
+		@include transition(1s);
+		&:hover {
+			text-decoration: none;
+			background: $dgrey;
+			color: $lblue;
+		}
 
-        }
+		&.title {
+			display: block;
+			background: $lblue;
+			color: $dgrey;
+			font-size: 20px;
+			font-family: $heading;
+			text-align: center;
+			padding: 15px;
+			padding-bottom: 17px;
+			margin: 0;
+			margin-bottom: 10px;
+			@include transition(1s);
+			&:hover{
+				text-decoration: none;
+				background: $dgrey;
+				color: $lblue;
+			}
+		}
+
+		&.button {
+			padding: 10px;
+			display: block;
+			background: $lblue;
+			color: $w;
+			@include border-radius(5px);
+			@include transition(1s);
+			width: 50%;
+			float: right;
+			text-align: center;
+			font-family: $subheading;
+			font-size: 16px;
+			text-transform: uppercase;
+			&:hover {
+				text-decoration: none;
+				background: $w;
+				color: $lblue;
+			}
+		}
+	}
+
+    .main img {
+        @include border-radius(10px);
     }
-    #twitter{
-        .col-lg-12{
-            padding-right: 30px;
-        }
-        a{
-            &.title{
-                display: block;
-                background: $lblue;
-                color:$dgrey;
-                font:{
-                    size:20px;
-                    family: $heading;
-                }
-                text-align: center;
-                padding:15px;
-                padding-bottom: 17px;
-                margin:0;
-                margin-bottom: 10px;
-                 @include transition(1s);
-                 &:hover{
-                    text-decoration: none;
-                    background: $dgrey;
-                    color:$lblue;
-                 }
-            }
-            &.button{
-                padding:10px;
-                display: block;
-                background: $lblue;
-                color:$w;
-                @include border-radius(5px);
-                @include transition(1s);
-                width:50%;
-                float:right;
-                text-align: center;
-                font:{
-                    family:$subheading;
-                    //weight:800;
-                    size:16px;
-                }
-                text-transform: uppercase;
-                &:hover{
-                    text-decoration: none;
-                    background: $w;
-                    color:$lblue;
-                }
-            }
-        }
-    }
-    background: $dgrey;
-    color:$w;
-    .main{
-        img{
-            @include border-radius(10px);
-        }
-    }
-    .col-lg-3{
-        img{
-            //margin-bottom: 20px;
-            // @include border-radius(5px);
-        }
-    }
-    header{
-        a, h3{
-            font:{
-                size:30px;
-                weight:400;
-                family: $heading;
-            }
-            letter-spacing: 1px;
-            text-transform: uppercase;
-             @include transition(1s);
-            &:hover{
-                text-decoration: none;
-                color:$w;
-            }
-        }
-        h3{
-            margin:0;
-            padding:0;
-        }
-        text-align: center;
+
+    header {
+		text-align: center;
         padding-bottom: 10px;
     }
-    article{
-        font-size:18px;
-        padding-left:20px;
+    article {
+        font-size: 18px;
+        padding-left: 20px;
         padding-right: 20px;
-        font-family:$open;
+        font-family: $open;
         font-weight: 100;
-       // min-height: 210px;
     }
-    footer{
-        margin-top:20px;
+
+	footer {
+        margin-top: 20px;
         text-align: center;
-        a{
-            padding:10px;
-            display: block;
-            background: $lblue;
-            color:$w;
-            @include border-radius(5px);
-            @include transition(1s);
-            font:{
-                family:$subheading;
-                //weight:800;
-                size:16px;
-            }
-            text-transform: uppercase;
-            &:hover{
-                text-decoration: none;
-                background: $w;
-                color:$lblue;
-            }
-
-
-        }
     }
-}
 
-.loading{
-    background: url("../img/ajax-loader.gif") center center no-repeat ;
+	.footer a {
+		color: $dgrey;
+		background: none;
+		font-size: 12px;
+		font-family: $open;
+	}
 }

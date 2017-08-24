@@ -1,28 +1,24 @@
-#header{
-    //height:500px;
-
-}
-.headerPage{
+.header-container {
     background: url("../img/017v2.png");
-    background-size:cover;
+    background-size: cover;
     background-position: center;
-    .headerText{
+
+	.header-text {
         text-align: center;
-        color:$dgrey;
-         h1{
-            color:$lblue;
-            font:{
-                size:130px;
-                family:$heading;
-            }
+        color: $dgrey;
+
+		h1 {
+            color: $lblue;
+			font-size: 130px;
+            font-family: $heading;
             text-transform: none;
         }
-        h2{
-            font-size:50px;
-            margin-top:-50px;
-            color:$w;
-            text-shadow:1px 1px $dgrey;
-        }
 
+		h2 {
+            font-size: 50px;
+            margin-top: -50px;
+            color: $w;
+            text-shadow: 1px 1px $dgrey;
+        }
     }
 }
