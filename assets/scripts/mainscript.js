@@ -1,14 +1,14 @@
 $(document).ready(function() {
 	$('#fullpage').fullpage({
-		menu: '#navbar',
-		lockAnchors: true,
-		anchors:['header', 'dealear', 'portfolio', 'skills', 'about', 'contact', 'social'],
-		navigation: true,
+		menu: 				'#navbar',
+		lockAnchors: 		true,
+		anchors: 			['header', 'portfolio','skills','games', 'about', 'art', 'dealer', 'contact', 'social'],
+		navigation: 		true,
 		navigationPosition: 'right',
-		navigationTooltips: ['header', 'dealer', 'portfolio', 'skills', 'about', 'contact', 'social'],
-		showActiveTooltip: true,
-		});
-	$(".alert").alert()
+		navigationTooltips: ['header', 'portfolio','skills','games', 'about', 'art', 'dealer', 'contact', 'social'],
+		showActiveTooltip: 	true,
+	});
+	$(".alert").alert();
   // init Isotope
 	/*var $grid = $('.grid').isotope({
 	  itemSelector: '.grid-item',

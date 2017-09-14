@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% for post in site.posts %}
+{% for post in site.categories.portfolio %}
     <article  itemscope itemtype="http://schema.org/BlogPosting" class="port-single-container grid-item {{post.category}}">
          <a href="{{ post.image.feature }}" title="{{ post.content | strip_html }}" rel="lightbox" data-cata="{{ post.categories }}">
             <div class="image-container">

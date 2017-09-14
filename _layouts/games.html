@@ -1,0 +1,19 @@
+---
+layout: games
+---
+{% for game in site.posts.games %}
+    <article  itemscope itemtype="http://schema.org/BlogPosting" class="port-single-container grid-item {{game.category}}">
+         <a href="{{ game.image.feature }}" title="{{ game.content | strip_html }}" rel="lightbox" data-cata="{{ game.categories }}">
+            <div class="image-container">
+                <img src="{{ game.image.feature }}">
+                <div class="caption">
+                    <span>
+                        {{ game.title }}
+                        <br>
+                        <i class="fa fa-plus"></i>
+                    </span>
+                </div>
+            </div>
+        </a>
+     </article>
+{% endfor%}

@@ -1,0 +1,9 @@
+---
+layout: games
+title:  "The Path"
+image:
+    feature: "http://placehold.it/200x200"
+date:   2017-09-12 15:37:24 -0500
+category: games
+---
+This was the first game I finished. It's a very short text adventure game made in Unity with c#

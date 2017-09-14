@@ -1,0 +1,39 @@
+<section class="row">
+	<div class="col-sm-12">
+		<div class="container">
+			<h2>Art</h2>
+			<div class="row">
+				<div class="col-md-3"></div>
+				<div class="col-md-6">
+					<p>
+						Here are some of the few art pieces that I'm proud of.
+					</p>
+					<p> All of my inprogress and finished pieces can be found on my <a href="https://tragicallyhipster.deviantart.com/" target="_blank">Deviant Art</a> (along with some other art links.)
+				</div>
+				<div class="col-md-3"></div>
+			</div>
+			<div class="row">
+				<div class="grid">
+					{% for art in site.posts %}
+						{% if art.category == 'art' %}
+							<article  itemscope itemtype="http://schema.org/BlogPosting" class="port-single-container grid-item {{art.category}}">
+								 <a href="{{ art.image.feature }}" title="{{ art.content | strip_html }}" rel="lightbox" data-cata="{{ art.category }}">
+									<div class="image-container">
+										<img src="{{ art.image.feature }}">
+										<div class="caption">
+											<span>
+												{{ art.title }}
+												<br>
+												<i class="fa fa-plus"></i>
+											</span>
+										</div>
+									</div>
+								</a>
+							 </article>
+						{% endif %}
+					{% endfor%}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

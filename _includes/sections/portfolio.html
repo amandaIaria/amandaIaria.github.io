@@ -16,7 +16,24 @@
 			</div>
 			<div class="row">
 				<div class="grid">
-					{{ content }}
+					{% for post in site.posts %}
+						{% if post.category == 'portfolio' %}
+						<article  itemscope itemtype="http://schema.org/BlogPosting" class="port-single-container grid-item {{post.category}}">
+							 <a href="{{ post.image.feature }}" title="{{ post.content | strip_html }}" rel="lightbox" data-cata="{{ post.category }}">
+								<div class="image-container">
+									<img src="{{ post.image.feature }}">
+									<div class="caption">
+										<span>
+											{{ post.title }}
+											<br>
+											<i class="fa fa-plus"></i>
+										</span>
+									</div>
+								</div>
+							</a>
+						 </article>
+						{% endif %}
+					{% endfor %}
 				</div>
 			</div>
 		</div>
