@@ -1,9 +1,10 @@
 ---
-layout: art
+layout: post
 title:  "Jeanette"
 image:
-    feature: "http://placehold.it/200x200"
+    feature: "assets/img/port/art/jeanette.png"
 date:   2017-09-12 15:37:24 -0500
 category: art
 ---
-Fan art for Forever Knight.
+Fan art for Forever Knight. A modern take on the character.
+https://tragicallyhipster.deviantart.com/art/Janette-DuCharme-Forever-Knight-Fan-Art-696029744

@@ -1,9 +1,9 @@
 ---
-layout: games
+layout: post
 title:  "The Path"
 image:
-    feature: "http://placehold.it/200x200"
+    feature: "https://img.itch.zone/aW1hZ2UvMTczNzgyLzgxMDE1OC5wbmc=/347x500/k%2B627E.png"
 date:   2017-09-12 15:37:24 -0500
 category: games
 ---
-This was the first game I finished. It's a very short text adventure game made in Unity with c#
+This was the first game I finished. It's a very short text adventure game made in Unity with c# https://tragicallyhipster.itch.io/the-path
