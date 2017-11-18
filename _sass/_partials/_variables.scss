@@ -3,6 +3,7 @@
 $base-font-family: 	"Helvetica Neue", Helvetica, Arial, sans-serif;
 $heading: 			LeagueGothic-Regular, sans-serif ;
 $subheading: 		"fira-sans-2",sans-serif;
+$subheading2: 		'Fira Sans Extra Condensed', sans-serif;
 $base-font-size:   	16px;
 $base-font-weight: 	200;
 $small-font-size:  	$base-font-size * 0.875;
@@ -32,3 +33,12 @@ $lgrey: 			#ccc;
 $lblue: 			#0cbfef;
 
 $open: 				'Open Sans', sans-serif;
+
+$large-font-size: $base-font-size*4;
+$large-font-weight: $base-font-size*2;
+$block-quote-size: $base-font-size *1.5 ;
+
+//overrides
+.progress {
+	margin-bottom: 5px !important;
+}

@@ -87,20 +87,23 @@ li {
 h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
 }
-h1{
+h1 {
     font:{
         family:$heading !important;
     }
     text-transform: uppercase;
 }
 
-h2{
+h2 {
     font:{
         family:$subheading !important;
-        weight: 400 !important;
-        size:50px !important;
+        size: $large-font-size !important;
     }
     text-transform: uppercase;
+    text-align: center;
+    &.heading {
+        font-weight:600;
+    }
 }
 
 
@@ -113,7 +116,7 @@ blockquote {
     color: $grey-color;
     border-left: 4px solid $grey-color-light;
     padding-left: $spacing-unit / 2;
-    font-size: 18px;
+    font-size: $block-quote-size;
     letter-spacing: -1px;
     font-style: italic;
 
@@ -225,8 +228,9 @@ pre {
     color:$w;
 }
 
-p{
-    font-size: 16px;
+p {
+    font-size: $base-font-size;
+    line-height: $base-font-size*2;
 }
 #fp-nav ul li .fp-tooltip{
     font:{
@@ -248,3 +252,43 @@ p{
     margin-left: -92px;
     z-index: 99999;
 }
+
+.sub-title {
+    font-size: 32px;
+    text-align: center;
+    font-family: $subheading2;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+h2 small {
+    font-size: 50%;
+    line-height: 0.25;
+}
+
+.grey-section {
+    background-color: $dgrey;
+    .heading {
+        color: $lblue;
+    }
+    .sub-title {
+         color: $lgrey;
+    }
+    .progress {
+        background: lighten($dgrey, 2%);
+        .progress-bar {
+            color: $dgrey;
+        }
+    }
+}
+
+.white-section {
+    background-color: $w;
+    .sub-title {
+        color: $dgrey;
+    }
+    .heading {
+        color: $lblue;
+    }
+}
+

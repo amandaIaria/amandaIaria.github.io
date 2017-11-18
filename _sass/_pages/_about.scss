@@ -1,18 +1,31 @@
 .about-container {
-	background-image: url('../img/background/darkness.png');
-	color: $w;
-
-
 	.container-img {
-		height: 100%;
-		width: 100%;
-		overflow: hidden;
+		text-align: center;
+	}
+	color: $lgrey;
+}
+.resume-quote {
+	margin-top: 25%;
+}
+.resume-quote-line {
+	height: 1px;
+	width: 100%;
+	background-color: $lblue;
+	margin-top: 60px;
 
-		img {
-			width: 150%;
-			max-width: 300%;
-			margin-left: -150px;
-			margin-top: -50px;
-		}
+	&.left{
+		float: left;
+	}
+	&.right {
+		float: right;
 	}
 }
+.resume-quote-copy {
+    color: $lblue;
+    text-align: center;
+    .lead{
+        line-height: 1.6;
+    }
+}
+
+

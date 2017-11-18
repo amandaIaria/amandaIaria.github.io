@@ -6,5 +6,5 @@ image:
 date:   2017-09-26 15:37:24 -0500
 category: games
 ---
-First original 'game.' This is the idea of the first, real, original game by me.
+First original 'game.' This prototype features the core ideas that will be in the finished product.
 https://tragicallyhipster.itch.io/endless-runner-prototype
