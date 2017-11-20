@@ -6,5 +6,7 @@ image:
 date:   2017-09-18 15:37:24 -0500
 category: games
 ---
-A breakout clone. This game was the first that uses Unity for a GUI game.
-https://tragicallyhipster.itch.io/another-block-breaker-clone
+The second game in the C# course. As stated in the title it's a Breakout clone. In the lecture I learned about Spritesheets, UI, collisions, a level system, music and sound,   the start of a menu system. Some of the building blocks to create a fully realized game.
+
+
+<a href="https://tragicallyhipster.itch.io/another-block-breaker-clone" target="_blank">https://tragicallyhipster.itch.io/another-block-breaker-clone</a>.

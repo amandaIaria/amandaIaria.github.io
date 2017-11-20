@@ -4,8 +4,8 @@
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 
@@ -14,15 +14,15 @@ dl, dd, ol, ul, figure {
  */
 
 header{
-    h1, h2{
-        text-align: center;
-    }
+	h1, h2{
+		text-align: center;
+	}
 }
 .featherlight .legend {
-    position: absolute;
-    bottom: 0;
-    font-size: larger;
-    color: white;
+	position: absolute;
+	bottom: 0;
+	font-size: larger;
+	color: white;
 }
 
 /**
@@ -32,13 +32,13 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+	margin-bottom: $spacing-unit / 2;
 }
 
 
 .logo{
-    width:100%;
-    font-family: $heading !important;
+	width:100%;
+	font-family: $heading !important;
 
 }
 
@@ -46,8 +46,8 @@ ul, ol, dl, figure,
  * Images
  */
 img {
-    max-width: 100%;
-    vertical-align: middle;
+	max-width: 100%;
+	vertical-align: middle;
 }
 
 
@@ -56,11 +56,11 @@ img {
  * Figures
  */
 figure > img {
-    display: block;
+	display: block;
 }
 
 figcaption {
-    font-size: $small-font-size;
+	font-size: $small-font-size;
 }
 
 
@@ -69,14 +69,14 @@ figcaption {
  * Lists
  */
 ul, ol {
-    margin-left: $spacing-unit;
+	margin-left: $spacing-unit;
 }
 
 li {
-    > ul,
-    > ol {
-         margin-bottom: 0;
-    }
+	> ul,
+	> ol {
+		 margin-bottom: 0;
+	}
 }
 
 
@@ -85,25 +85,25 @@ li {
  * Headings
  */
 h2, h3, h4, h5, h6 {
-    font-weight: $base-font-weight;
+	font-weight: $base-font-weight;
 }
 h1 {
-    font:{
-        family:$heading !important;
-    }
-    text-transform: uppercase;
+	font:{
+		family:$heading !important;
+	}
+	text-transform: uppercase;
 }
 
 h2 {
-    font:{
-        family:$subheading !important;
-        size: $large-font-size !important;
-    }
-    text-transform: uppercase;
-    text-align: center;
-    &.heading {
-        font-weight:600;
-    }
+	font:{
+		family:$subheading !important;
+		size: $large-font-size !important;
+	}
+	text-transform: uppercase;
+	text-align: center;
+	&.heading {
+		font-weight:600;
+	}
 }
 
 
@@ -113,16 +113,16 @@ h2 {
  * Blockquotes
  */
 blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
-    padding-left: $spacing-unit / 2;
-    font-size: $block-quote-size;
-    letter-spacing: -1px;
-    font-style: italic;
+	color: $grey-color;
+	border-left: 4px solid $grey-color-light;
+	padding-left: $spacing-unit / 2;
+	font-size: $block-quote-size;
+	letter-spacing: -1px;
+	font-style: italic;
 
-    > :last-child {
-        margin-bottom: 0;
-    }
+	> :last-child {
+		margin-bottom: 0;
+	}
 }
 
 
@@ -132,25 +132,25 @@ blockquote {
  */
 pre,
 code {
-    font-size: 15px;
-    border: 1px solid $grey-color-light;
-    border-radius: 3px;
-    background-color: #eef;
+	font-size: 15px;
+	border: 1px solid $grey-color-light;
+	border-radius: 3px;
+	background-color: #eef;
 }
 
 code {
-    padding: 1px 5px;
+	padding: 1px 5px;
 }
 
 pre {
-    padding: 8px 12px;
-    overflow-x: auto;
+	padding: 8px 12px;
+	overflow-x: auto;
 
-    > code {
-        border: 0;
-        padding-right: 0;
-        padding-left: 0;
-    }
+	> code {
+		border: 0;
+		padding-right: 0;
+		padding-left: 0;
+	}
 }
 
 
@@ -164,11 +164,11 @@ pre {
  */
 %clearfix {
 
-    &:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
 }
 
 
@@ -178,117 +178,129 @@ pre {
  */
 .icon {
 
-    > svg {
-        display: inline-block;
-        width: 16px;
-        height: 16px;
-        vertical-align: middle;
+	> svg {
+		display: inline-block;
+		width: 16px;
+		height: 16px;
+		vertical-align: middle;
 
-        path {
-            fill: $grey-color;
-        }
-    }
+		path {
+			fill: $grey-color;
+		}
+	}
 }
 
 #fp-nav ul li a span, .fp-slidesNav ul li a span{
-    background: $lblue !important;
+	background: $lblue !important;
 }
 
 
 ::-webkit-input-placeholder {
-           color: $lgrey;
-           font-family:$open;
-           font-weight:200;
-        }
+		   color: $lgrey;
+		   font-family:$open;
+		   font-weight:200;
+		}
 
-        :-moz-placeholder { /* Firefox 18- */
-            font-family:$open;
-            color: $lgrey;
-            font-weight:200;
-        }
+		:-moz-placeholder { /* Firefox 18- */
+			font-family:$open;
+			color: $lgrey;
+			font-weight:200;
+		}
 
-        ::-moz-placeholder {  /* Firefox 19+ */
-            font-family:$open;
-            color: $lgrey;
-            font-weight:200;
-        }
+		::-moz-placeholder {  /* Firefox 19+ */
+			font-family:$open;
+			color: $lgrey;
+			font-weight:200;
+		}
 
-        :-ms-input-placeholder {
-            font-family:$open;
-            color: $lgrey;
-            font-weight:200;
-        }
+		:-ms-input-placeholder {
+			font-family:$open;
+			color: $lgrey;
+			font-weight:200;
+		}
 
 ::selection{
-    background: $lblue;
-    color:$w;
+	background: $lblue;
+	color:$w;
 }
 ::-moz-selection{
-    background: $lblue;
-    color:$w;
+	background: $lblue;
+	color:$w;
 }
 
 p {
-    font-size: $base-font-size;
-    line-height: $base-font-size*2;
+	font-size: $base-font-size;
+	line-height: $base-font-size*2;
 }
 #fp-nav ul li .fp-tooltip{
-    font:{
-        size:20px !important;
-        family: $heading !important;
-    }
-    top: -9px !important;
-    text:{
-        transform: uppercase;
-        shadow:$dgrey 1px 1px 1px;
-    }
-    color:$lblue !important;
+	font:{
+		size:20px !important;
+		family: $heading !important;
+	}
+	top: -9px !important;
+	text:{
+		transform: uppercase;
+		shadow:$dgrey 1px 1px 1px;
+	}
+	color:$lblue !important;
 
 }
 .alert{
-    position: absolute;
-    top: 0;
-    left: 50%;
-    margin-left: -92px;
-    z-index: 99999;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -92px;
+	z-index: 99999;
 }
 
 .sub-title {
-    font-size: 32px;
-    text-align: center;
-    font-family: $subheading2;
-    padding-top: 10px;
-    padding-bottom: 30px;
+	font-size: 32px;
+	text-align: center;
+	font-family: $subheading2;
+	padding-top: 10px;
+	padding-bottom: 30px;
 }
 
+.progress-bar {
+		color: $dgrey;
+		text-align: left !important;
+		padding-left: 10px;
+	}
+
 h2 small {
-    font-size: 50%;
-    line-height: 0.25;
+	font-size: 50%;
+	line-height: 0.25;
 }
 
 .grey-section {
-    background-color: $dgrey;
-    .heading {
-        color: $lblue;
-    }
-    .sub-title {
-         color: $lgrey;
-    }
-    .progress {
-        background: lighten($dgrey, 2%);
-        .progress-bar {
-            color: $dgrey;
-        }
-    }
+	background-color: $dgrey;
+	h2, p {
+		color: $lgrey;
+	}
+	.heading {
+		color: $lblue;
+	}
+	.sub-title,  {
+		 color: $lgrey;
+	}
+	.progress {
+		background: lighten($dgrey, 2%);
+	}
 }
 
 .white-section {
-    background-color: $w;
-    .sub-title {
-        color: $dgrey;
-    }
-    .heading {
-        color: $lblue;
-    }
+	background-color: $w;
+	.sub-title {
+		color: $dgrey;
+	}
+	.heading {
+		color: $lblue;
+	}
 }
 
+.fp-controlArrow.fp-prev{
+	border-color: transparent $b transparent transparent !important;
+}
+.fp-controlArrow.fp-next {
+	border-color: transparent transparent transparent $b !important;
+}

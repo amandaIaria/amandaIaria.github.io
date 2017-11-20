@@ -1,44 +1,17 @@
 (function($){
 
-    var url = "https://pacific-mountain-4640.herokuapp.com/";
+	var url = 'https://pacific-mountain-4640.herokuapp.com/',
+		$containerDiv = $('.social-container'),
+		$tumblrDiv = $containerDiv.find('.tumblr'),
+		$instagramDiv = $containerDiv.find('.instagram'),
+		$twitterDiv = $containerDiv.find('.twitter'),
+		tumblr = url + 'tumblr.php',
+		instagram = url +'instagram.php',
+		twitter = url +'twitter.php'
+	;
 
-    var tumblr = url + "tumblr.php";
-    var tumDiv = $("#tumblr");
-
-    var instagram = url +"instagram.php";
-    var instDiv = $("#instagram");
-
-    var twitter = url +"twitter.php";
-    var twitDiv = $("#twitter");
-
-
-  /* $.ajax({
-        //cache: true,
-        url : tumblr,
-        methods: "GET",
-
-        failure: function(){
-            tumDiv.html("no go");
-            console.log("No GO");
-        },
-        success: function(data){
-            tumDiv.removeClass("loading").html(data);
-            console.log("success");
-        }
-    })*/
-
-    instDiv.load(instagram, function(){$(this).removeClass("loading") });
-
-    tumDiv.load(tumblr, function(){$(this).removeClass("loading") });
-
-    twitDiv.load(twitter, function(){$(this).removeClass("loading") });
-
-
-
-
-
-
-
-
+	$instagramDiv.load(instagram, function(){$(this).removeClass('loading') });
+	$tumblrDiv.load(tumblr, function(){$(this).removeClass('loading') });
+	$twitterDiv.load(twitter, function(){$(this).removeClass('loading') });
 
 }(jQuery))

@@ -3,7 +3,23 @@
 	padding-left: 40px;
 }
 
-.portfolio{
+.portfolio {
+	p {
+		//@G1	vusc 7v,,,,,,,,,,,,,,,mv21gw22uqqyfont-family: $base-font-family;
+	}
+	.image-container {
+		text-align: center;
+		img {
+			width: 50%;
+		}
+	}
+	.slides-container {
+		width:800px;
+		margin: auto;
+	}
+}
+
+/*.portfolio{
 	.port-single-container {
 		float:left;
 		width:24%;
@@ -89,4 +105,4 @@
 			}
 		}
 	}
-}
+}*/

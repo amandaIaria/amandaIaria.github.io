@@ -1,32 +1,35 @@
 <section class="row">
 	<div class="col-sm-12">
-		<div class="container">
-			<h2 class="heading">Art</h2>
-			<div class="sub-title">
-			Amanda has a passion for art, and loves both analog and digital mediums. Here are a few of their pieces, while more can be found at <a href="https://tragicallyhipster.deviantart.com/" target="_blank">Deviant Art</a>.
-			</div>
-			<div class="row">
-				<div class="grid">
-					{% for art in site.posts %}
-						{% if art.category == 'art' %}
-							<article  itemscope itemtype="http://schema.org/BlogPosting" class="port-single-container grid-item {{art.category}}">
-								 <a href="{{ art.image.feature }}" title="{{ art.content | strip_html }}" rel="lightbox" data-cata="{{ art.category }}">
-									<div class="image-container">
-										<img src="{{ art.image.feature }}">
-										<div class="caption">
-											<span>
-												{{ art.title }}
-												<br>
-												<i class="fa fa-plus"></i>
-											</span>
-										</div>
-									</div>
-								</a>
-							 </article>
-						{% endif %}
-					{% endfor%}
+		<div class="slide" data-anchor="slide1">
+
+			<div class="slides-container">
+				<h2 class="heading">
+					Drawings
+				</h2>
+				<div class="sub-title">
+				Amanda has a passion for art, and loves both analog and digital mediums. Here are a few of their pieces, while more can be found at <a href="https://tragicallyhipster.deviantart.com/" target="_blank">Deviant Art</a>.
 				</div>
 			</div>
 		</div>
+		{% assign count = 2 %}
+		{% for post in site.posts %}
+
+			{% if post.category == 'art' %}
+				<div class="slide slide{{ count }}" data-anchor="slide{{ count }}">
+					<div class="slides-container">
+						<article  itemscope itemtype="http://schema.org/BlogPosting" class="port-single-container grid-item {{post.category}}">
+							<h2>{{ post.title }}</h2>
+							<div class="subtitle">
+							{{ post.content }}
+							</div>
+							<div class="image-container">
+								<img src="{{ post.image.feature }}">
+							</div>
+						</article>
+					</div>
+				</div>
+				{% assign count = count | plus: 1 %}
+			{% endif %}
+		{% endfor %}
 	</div>
 </section>

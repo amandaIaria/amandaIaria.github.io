@@ -1,34 +1,35 @@
 <div class="row">
 	<div class="col-lg-12">
-		<div class="container">
-			<h2 class="heading">
-				Projects
-			</h2>
-			<div class="sub-title">
-			Amanda has worked on a wide variety of projects, ranging from full sites to landing pages, new layouts to plugins. These are just a few of the products I have worked on in the past couple of years.
-			</div>
-			<div class="row">
-				<div class="grid">
-					{% for post in site.posts %}
-						{% if post.category == 'portfolio' %}
-						<article  itemscope itemtype="http://schema.org/BlogPosting" class="port-single-container grid-item {{post.category}}">
-							 <a href="{{ post.image.feature }}" title="{{ post.content | strip_html }}" rel="lightbox" data-cata="{{ post.category }}">
-								<div class="image-container">
-									<img src="{{ post.image.feature }}">
-									<div class="caption">
-										<span>
-											{{ post.title }}
-											<br>
-											<i class="fa fa-plus"></i>
-										</span>
-									</div>
-								</div>
-							</a>
-						 </article>
-						{% endif %}
-					{% endfor %}
+		<div class="slide" data-anchor="slide1">
+
+			<div class="slides-container">
+				<h2 class="heading">
+					Projects
+				</h2>
+				<div class="sub-title">
+				Amanda has worked on a wide variety of projects, ranging from full sites to landing pages, new layouts to plugins. These are just a few of the products I have worked on in the past couple of years.
 				</div>
 			</div>
 		</div>
+		{% assign count = 2 %}
+		{% for post in site.posts %}
+
+			{% if post.category == 'portfolio' %}
+				<div class="slide slide{{ count }}" data-anchor="slide{{ count }}">
+					<div class="slides-container">
+						<article  itemscope itemtype="http://schema.org/BlogPosting" class="port-single-container grid-item {{post.category}}">
+							<h2>{{ post.title }}</h2>
+							<div class="subtitle">
+							{{ post.content }}
+							</div>
+							<div class="image-container">
+								<img src="{{ post.image.feature }}">
+							</div>
+						</article>
+					</div>
+				</div>
+				{% assign count = count | plus: 1 %}
+			{% endif %}
+		{% endfor %}
 	</div>
 </div>

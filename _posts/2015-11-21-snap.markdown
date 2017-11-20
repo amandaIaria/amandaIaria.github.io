@@ -7,4 +7,4 @@ date:   2015-11-21 15:37:24 -0500
 category: portfolio
 ---
 
-Snap is a site I worked on while at HMC advertising. We worked with the Vermont Department of Health to create a site that focused on eating healthy for low income Vermonters. Unlike many of the other sites I've worked on this one is a static landing page. We had a lot of information to work with, and had the challenge to orginize it in such a way that it would be easy to navigate. View the site at http://www.healthyinasnapvt.org/
+Snap is a site I worked on while at HMC advertising. We worked with the Vermont Department of Health to create a site that focused on eating healthy for low income Vermonters. Unlike many of the other sites I've worked on this one is a static landing page. We had a lot of information to work with, and had the challenge to orginize it in such a way that it would be easy to navigate. View the site at <a href="http://www.healthyinasnapvt.org/" target="_blank">http://www.healthyinasnapvt.org/</a>.

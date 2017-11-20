@@ -6,5 +6,6 @@ image:
 date:   2017-09-26 15:37:24 -0500
 category: games
 ---
-First original 'game.' This prototype features the core ideas that will be in the finished product.
-https://tragicallyhipster.itch.io/endless-runner-prototype
+This was the first original product I made. It's a prototype for an endless runner game. The final game is still being worked on, but the core blocks are presented here. Running, jumping, background animation, and distance over time are some of the feature's in this prototype.
+
+<a href="https://tragicallyhipster.itch.io/endless-runner-prototype" target="_blank">https://tragicallyhipster.itch.io/endless-runner-prototype</a>.

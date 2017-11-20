@@ -1,32 +1,35 @@
 <section class="row">
 	<div class="col-sm-12">
-		<div class="container">
-			<h2 class="heading">Games</h2>
-			<div class="sub-title">
-			In the past few months Amanda has begun experimenting and creating games in various game engines. Here are a couple that they are proud of. More can be found at <a href="https://tragicallyhipster.itch.io/" target="_blank">itch.io</a>
-			</div>
-			<div class="row">
-				<div class="grid">
-					{% for game in site.posts %}
-						{% if game.category == 'games' %}
-							<article  itemscope itemtype="http://schema.org/BlogPosting" class="port-single-container grid-item {{game.category}}">
-								 <a href="{{ game.image.feature }}" title="{{ game.content | strip_html }}" rel="lightbox" data-cata="{{ game.category }}">
-									<div class="image-container">
-										<img src="{{ game.image.feature }}">
-										<div class="caption">
-											<span>
-												{{ game.title }}
-												<br>
-												<i class="fa fa-plus"></i>
-											</span>
-										</div>
-									</div>
-								</a>
-							 </article>
-						{% endif %}
-					{% endfor%}
+		<div class="slide" data-anchor="slide1">
+
+			<div class="slides-container">
+				<h2 class="heading">
+					Video Games
+				</h2>
+				<div class="sub-title">
+				In the past few months Amanda has begun experimenting and creating games in various game engines. Here are a couple that they are proud of. More can be found at <a href="https://tragicallyhipster.itch.io/" target="_blank">itch.io</a>
 				</div>
 			</div>
 		</div>
+		{% assign count = 2 %}
+		{% for post in site.posts %}
+
+			{% if post.category == 'games' %}
+				<div class="slide slide{{ count }}" data-anchor="slide{{ count }}">
+					<div class="slides-container">
+						<article  itemscope itemtype="http://schema.org/BlogPosting" class="port-single-container grid-item {{post.category}}">
+							<h2>{{ post.title }}</h2>
+							<div class="subtitle">
+							{{ post.content }}
+							</div>
+							<div class="image-container">
+								<img src="{{ post.image.feature }}">
+							</div>
+						</article>
+					</div>
+				</div>
+				{% assign count = count | plus: 1 %}
+			{% endif %}
+		{% endfor %}
 	</div>
 </section>
