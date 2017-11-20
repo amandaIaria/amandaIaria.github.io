@@ -7,17 +7,17 @@ $(document).ready(function() {
 		navigationPosition: 'right',
 		navigationTooltips: ['header', 'about', 'portfolio','games',  'art', 'contact', 'social'],
 		showActiveTooltip: 	true,
-		css3: false,
+		slidesNavigation: true,
 		onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){
 			var $container = 		$('.fullpage-wrapper'),
-				$projectContainer =	$container.find('.portfolio-container'),
-				$gamesContainer =	$container.find('.games-container'),
-				$artContainer =		$container.find('.art-container'),
 
 				$portSlide2 = 		$container.find('.portfolio-container .slide2'),
 				$portSlide3 = 		$container.find('.portfolio-container .slide3'),
 				$portSlide4 = 		$container.find('.portfolio-container .slide4'),
 				$portSlide5 = 		$container.find('.portfolio-container .slide5'),
+				$portSlide6 = 		$container.find('.portfolio-container .slide6'),
+				$portSlide7 = 		$container.find('.portfolio-container .slide7'),
+				$portSlide8 = 		$container.find('.portfolio-container .slide8'),
 
 				$artSlide2 = 		$container.find('.art-container .slide2'),
 				$artSlide3 = 		$container.find('.art-container .slide3'),
@@ -29,6 +29,7 @@ $(document).ready(function() {
 				$gameSlide4 = 		$container.find('.games-container .slide4'),
 				$gameSlide5 = 		$container.find('.games-container .slide5')
 			;
+
 			if(index == 3 && nextSlideIndex == 1){
 				$portSlide2.find('h2').addClass('animated fadeInLeft');
 				$portSlide2.find('.subtitle').addClass('animated fadeIn').css('animation-delay', '.3s');
@@ -48,6 +49,21 @@ $(document).ready(function() {
 				$portSlide5.find('h2').addClass('animated fadeInLeft');
 				$portSlide5.find('.subtitle').addClass('animated fadeIn').css('animation-delay', '.3s');
 				$portSlide5.find('img').addClass('animated fadeInUp').css('animation-delay', '.6s');
+			}
+			else if(index == 3 && nextSlideIndex == 5){
+				$portSlide6.find('h2').addClass('animated fadeInLeft');
+				$portSlide6.find('.subtitle').addClass('animated fadeIn').css('animation-delay', '.3s');
+				$portSlide6.find('img').addClass('animated fadeInUp').css('animation-delay', '.6s');
+			}
+			else if(index == 3 && nextSlideIndex == 6){
+				$portSlide7.find('h2').addClass('animated fadeInLeft');
+				$portSlide7.find('.subtitle').addClass('animated fadeIn').css('animation-delay', '.3s');
+				$portSlide7.find('img').addClass('animated fadeInUp').css('animation-delay', '.6s');
+			}
+			else if(index == 3 && nextSlideIndex == 7){
+				$portSlide8.find('h2').addClass('animated fadeInLeft');
+				$portSlide8.find('.subtitle').addClass('animated fadeIn').css('animation-delay', '.3s');
+				$portSlide8.find('img').addClass('animated fadeInUp').css('animation-delay', '.6s');
 			}
 			else if(index == 4 && nextSlideIndex == 1){
 				$gameSlide2.find('h2').addClass('animated fadeInLeft');

@@ -10,6 +10,4 @@ Original Work. This character is an antaginist from a World of Darkness tabletop
 
 The medium is digital, Black and White, while using the program .
 
-
-®∞WYDTASGYDHFJCVBNM./BHN-=
 <a href="https://tragicallyhipster.deviantart.com/art/A-Nosferatu-Ghost-603977196" target="_blank">https://tragicallyhipster.deviantart.com/art/A-Nosferatu-Ghost-603977196</a>.

@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "360 Widget"
+image:
+    feature: "assets/img/dealer/360Widget.png"
+date:   2015-11-21 15:37:24 -0500
+category:  portfolio
+---
+The 360 Widget was a project the marketing team from Subaru wanted for their dealership sites. In order to match closer to the Subaru.com site, the team was asked to create a 360 widget, while still using the resources they have at their disposal.
+
+An example can be found at <a href="http://www.cannonsubaru.com/showroom/2018/Subaru/Outback/SUV.htm" target="_blank">http://www.cannonsubaru.com/showroom/2018/Subaru/Outback/SUV.htm</a>.
