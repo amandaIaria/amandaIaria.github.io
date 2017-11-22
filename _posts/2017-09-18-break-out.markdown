@@ -6,6 +6,5 @@ image:
 date:   2017-09-18 15:37:24 -0500
 category: games
 ---
-This is the second game in the C# Unity course. As stated in its the title this is a Breakout clone. In the lecture, Amanda learned about Spritesheets, UI, collisions, a level system, music and sound, and the start of a menu system. These are just some of the building blocks to create a fully realized game.
-
+This is the second game in the C# Unity course. As stated in its title, this is a Breakout clone. In the lecture, Amanda learned about Spritesheets, UI, collisions, a level system, music and sound, and the start of a menu system. These are just some of the building blocks to create a fully realized game.
 <a href="https://tragicallyhipster.itch.io/another-block-breaker-clone" target="_blank">https://tragicallyhipster.itch.io/another-block-breaker-clone</a>.

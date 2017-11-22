@@ -9,3 +9,4 @@ category:  portfolio
 Weather & Vehicle Preparation is a page Amanda wanted to do something different on. With the help of their other team members at Dealer.com Amanda was able to persuade the Subaru Marketing team to try a different approach to the page.
 
 An example can be found at <a href="http://www.cannonsubaru.com/subaru-service-weather-vehicle-prep.htm" target="_blank">http://www.cannonsubaru.com/subaru-service-weather-vehicle-prep.htm</a>.
+

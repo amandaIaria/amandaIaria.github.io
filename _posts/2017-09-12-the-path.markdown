@@ -6,4 +6,4 @@ image:
 date:   2017-09-12 15:37:24 -0500
 category: games
 ---
-In 2017, as a way to re-familiarize with C#, Amanda started to take a Unity Game Engine class from Udemy. This is the first 'true' game off of the course. It's a simple text-adventure that only takes 5 mins (at the most) to complete. <a href="https://tragicallyhipster.itch.io/the-path" target="_blank">https://tragicallyhipster.itch.io/the-path</a>.
+In 2017, as a way to re-familiarize with C#, Amanda started to take a Unity Game Engine class from Udemy. This is the first 'true' game from the things learned in the course. It’s a simple text-based adventure game that takes up to 5 minutes to complete. <a href="https://tragicallyhipster.itch.io/the-path" target="_blank">https://tragicallyhipster.itch.io/the-path</a>.

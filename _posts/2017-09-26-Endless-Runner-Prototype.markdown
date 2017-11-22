@@ -6,6 +6,6 @@ image:
 date:   2017-09-26 15:37:24 -0500
 category: games
 ---
-This was the first original product Amanda made, as it's a prototype for an endless runner game. The final game is still being worked on, but the core blocks are presented here. Running, jumping, background animation, and distance over time are some of the features in this prototype.
+This was the first original product Amanda made, as it's a prototype for an endless runner game. The final game is still in production, but the core blocks are presented here. Running, jumping, background animation, and distance over time are some of the features in this prototype.
 
 <a href="https://tragicallyhipster.itch.io/endless-runner-prototype" target="_blank">https://tragicallyhipster.itch.io/endless-runner-prototype</a>.
