@@ -267,6 +267,10 @@ p {
 		padding-left: 10px;
 	}
 
+.progress.active .progress-bar {
+	-webkit-transition: none !important;
+	transition: none !important;
+}
 h2 small {
 	font-size: 50%;
 	line-height: 0.25;

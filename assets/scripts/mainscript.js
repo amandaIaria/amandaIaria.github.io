@@ -113,14 +113,21 @@ $(document).ready(function() {
 				$gamesContainer =	$container.find('.games-container'),
 				$artContainer =		$container.find('.art-container'),
 				$contactContainer = $container.find('.contact-container'),
-				$socialContainer =	$container.find('.social-container')
+				$socialContainer =	$container.find('.social-container'),
+				progressBarAmount
 			;
 
 			if( index == 1 && direction == 'down' && nextIndex == 2){
 				$aboutContainer.find('.heading').addClass('animated fadeInLeft');
 				$aboutContainer.find('p').addClass('animated fadeIn').css('animation-delay', '.3s');
 				$aboutContainer.find('img').addClass('animated fadeInUp').css('animation-delay', '.6s');
-				$aboutContainer.find('.progress').addClass('animated fadeInRight').css('animation-delay', '.9s');
+				//$aboutContainer.find('.progress').addClass('animated fadeInRight').css('animation-delay', '.9s');
+				$aboutContainer.find(".progress-bar").each(function(){
+					if(!$(this).hasClass('animated')){
+						progressBarAmount = $(this).attr('aria-valuenow') + "%";
+						$(this).animate({ width: progressBarAmount }, 1000).addClass('animated');
+					}
+				});
 				//$aboutContainer.addClass('animated rollIn').css('animation-delay', '1.7s');
 			}
 			else if( index == 2 && direction == 'down'){
