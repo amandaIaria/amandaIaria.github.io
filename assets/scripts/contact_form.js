@@ -1,8 +1,10 @@
 
 function setupRecaptcha() {
-	var contactFormHost = 'https://pure-ridge-6599.herokuapp.com/',
-			form = $('#contact-form'),
-			notice = form.find('#notice');
+	var contactFormHost = 'https://lit-badlands-7154.herokuapp.com/',
+		//contactFormHost = 'https://pure-ridge-6599.herokuapp.com/',
+		form = $('#contact-form'),
+		notice = form.find('#notice')
+	;
 
 	if (form.length) {
 		showRecaptcha('recaptcha_widget');
